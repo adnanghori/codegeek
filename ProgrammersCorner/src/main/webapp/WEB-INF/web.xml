@@ -1,0 +1,92 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  	<description></description>
+  	<servlet>
+  		<servlet-name>RegisterServlet</servlet-name>
+  		<display-name>RegisterServlet</display-name>
+  		<description></description>
+  		<servlet-class>com.codegeek.servlet.RegisterServlet</servlet-class>
+  	</servlet>
+  	<servlet>
+  		<servlet-name>LoginServlet</servlet-name>
+  		<display-name>LoginServlet</display-name>
+  		<description></description>
+  		<servlet-class>com.codegeek.servlet.LoginServlet</servlet-class>
+  	</servlet>
+  	<servlet>
+  		<servlet-name>LogoutServlet</servlet-name>
+  		<display-name>LogoutServlet</display-name>
+  		<description></description>
+  		<servlet-class>com.codegeek.servlet.LogoutServlet</servlet-class>
+  	</servlet>
+  	<servlet>
+  		<servlet-name>AddPostServlet</servlet-name>
+  		<display-name>AddPostServlet</display-name>
+  		<description></description>
+  		<servlet-class>com.codegeek.servlet.AddPostServlet</servlet-class>
+  	</servlet>
+  	<servlet>
+  		<servlet-name>LikeServlet</servlet-name>
+  		<display-name>LikeServlet</display-name>
+  		<description></description>
+  		<servlet-class>com.codegeek.servlet.LikeServlet</servlet-class>
+  	</servlet>
+  	<servlet>
+  		<servlet-name>ContactServlet</servlet-name>
+  		<display-name>ContactServlet</display-name>
+  		<description></description>
+  		<servlet-class>com.codegeek.servlet.ContactServlet</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>RegisterServlet</servlet-name>
+  		<url-pattern>/RegisterServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>LoginServlet</servlet-name>
+  		<url-pattern>/LoginServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>LogoutServlet</servlet-name>
+  		<url-pattern>/LogoutServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>AddPostServlet</servlet-name>
+  		<url-pattern>/AddPostServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>LikeServlet</servlet-name>
+  		<url-pattern>/LikeServlet</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>ContactServlet</servlet-name>
+  		<url-pattern>/ContactServlet</url-pattern>
+  	</servlet-mapping>
+  
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+</web-app>
