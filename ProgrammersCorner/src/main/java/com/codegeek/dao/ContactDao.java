@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 
 import com.codegeek.entities.Contact;
-// Connection
+
 
 public class ContactDao {
 	private Connection con;
