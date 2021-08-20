@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 
 import com.codegeek.entities.Contact;
 
-// comment
+
 public class ContactDao {
 	private Connection con;
 
